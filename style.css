@@ -20,8 +20,12 @@
     align-items: center;
 }
 
+.gap-3{
+    gap: 3rem;
+}
+
 .container{
-    width: 50%;
+    width: 90%;
     margin: auto;
 }
 
