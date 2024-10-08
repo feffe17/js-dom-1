@@ -4,8 +4,24 @@
     box-sizing: border-box;
 }
 
+.d-flex{
+    display: flex;
+}
+
+.justify-space-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
 .container{
-    width: 90%;
+    width: 50%;
     margin: auto;
 }
 
@@ -15,4 +31,20 @@
 
 .col-2{
     width: calc((100% / 12) * 2);
+}
+
+.btn{
+    font-size: 3rem;
+    padding: 2rem;
+    color: rgb(18, 146, 215);
+    background-color: white;
+    border: 1px solid rgb(18, 146, 215);
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.btn:hover{
+    color: white;
+    background-color: rgb(18, 146, 215);
+    transition-delay: 0.15s;
 }
